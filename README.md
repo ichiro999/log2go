@@ -43,7 +43,7 @@ import "time"
 import "fmt"
 
 func main() {
-    l,err := log2go.New("", 0, 100, log2go.WARN)
+    l,err := log2go.New("test.log", 0, 100, log2go.WARN)
     if err != nil {
         fmt.Println(err)
     }
